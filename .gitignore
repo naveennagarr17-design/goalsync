@@ -1,0 +1,17 @@
+# dependencies and build output
+node_modules/
+dist/
+.vite/
+
+# secrets: never commit these
+.env
+.env.local
+.env.*.local
+*.pem
+
+# editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+npm-debug.log*
